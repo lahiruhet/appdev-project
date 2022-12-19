@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo:wght@700&family=Poppins:wght@300;400;500&display=swap');
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+.heading--1{
+    color: red;
+    font-size: 24px;
+}
+
+
+.items{
+    margin: 40px;
+}
+
+.row{
+    background-color: rgb(133, 133, 132);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+}
+
+.navbar--icon{
+    width: 120px;
+    margin-right: 5px;
+}
+
+.jumbotron--items{
+    margin-bottom: 60px;
+}
+
+
+
+.card-group{
+    width: 80vw;
+}
+
+.card-group > *{
+    margin: 60px;
+}
+
+.card-group--items{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.caro--text{
+
+    color: white;
+    font-size: 50px;
+
+    text-transform: uppercase;
+    font-family: "arvo"
+}
+
+.centered {
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+/* .carousel{
+    height: 80vh;
+}
+
+.img-height{
+    height: 80vh;
+} */
